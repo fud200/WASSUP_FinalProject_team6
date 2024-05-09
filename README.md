@@ -1,2 +1,2 @@
 # WASSUP_FinalProject_team6
-# 수정중
+# Bracn for KHB
