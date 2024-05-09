@@ -1,2 +1,2 @@
 # WASSUP_FinalProject_team6
-# Bracn for KHB
+# Branch for KHB
