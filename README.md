@@ -11,10 +11,19 @@
   + **모든 인원이 모든 과정에 참여합니다. 담당 업무는 명목상 정했습니다. 모든 인원이 프로젝트를 이끌어 나가는 중 입니다**
 ---
 ## Our Subject
-**수정중**
+**실시간 감정분석 기반 LLM 챗봇**
 
-## Files(예시)
-  + **EDA.ipynb** : EDA를 위한 파일입니다. 'Dataset_for_EDA.zip' 파일을 데이터로 사용합니다.
-  + **Data_Preprocessing.ipynb** : 파생변수 생성, 데이터 이상치 제거를 위한 파일입니다.
-'Dataset_for_EDA.zip' 파일을 데이터로 사용합니다.
-  + **Modeling.ipynb** : 모델 학습을 위한 파일입니다. 'Dataset.zip' 파일을 데이터로 사용합니다.
+주제 선정 동기, 주제 세부 사항 등 추후 추가
+
+## Files
+  + **image_crop.ipynb** : 이미지 crop 작업을 수행
+  + **data_preprocess.py** : 모델 학습을 위해 데이터 전처리, 증강을 수행합니다.
+  + **model.py** : 모델이 정의된 파일입니다.
+  + **train.py** : train set을 사용해 모델을 학습하고 validation set으로 성능을 검증합니다.
+  + **test.py** : 학습된 모델의 test set에 대한 성능을 측정합니다.
+  + **demo.py** : 실시간 감정분석 챗봇을 실행합니다.
+
+
+## How to use
+  + 모델 학습
+  + 
