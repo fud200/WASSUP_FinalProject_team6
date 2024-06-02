@@ -26,4 +26,21 @@
 
 ## How to use
   + 모델 학습
-  + 
+
+  image_crop.ipynb 를 이용해 각 데이터셋을 crop한 뒤 "./data/train/(감정명)/"에 저장합니다.
+  이 과정을 train,validation,test set에 대해 진행합니다.
+  다음 코드를 실행시켜 모델을 학습합니다.
+```
+ $ python train.py
+ ```
+  + 모델 테스트
+    학습된 모델은 아래 링크에서 다운받을 수 있습니다.
+    https://drive.google.com/file/d/1flvY2gG-MUMKp5-aOVnxJsVfnv5BFaYt/view?usp=sharing
+    학습된 모델 파일을 동일 경로에 저장한 후 다음 코드를 실행시켜 모델을 테스트합니다.
+    ```
+ $ python test.py
+ ```
++ 실시간 감정분석 기반 LLM 챗봇 데모 실행
+    ```
+ $ python demo.py
+ ```
