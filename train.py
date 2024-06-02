@@ -4,12 +4,21 @@ import torch.nn as nn
 from torch.optim.lr_scheduler import StepLR
 from data_preprocess import load_data
 from model import initialize_model
+import argparse
+
+# 명령 줄 인자 파서 설정
+parser = argparse.ArgumentParser(description='Train a hybrid model with DenseNet-121 and ViT.')
+parser.add_argument('--batch_size', type=int, default=32, help='input batch size for training (default: 32)')
+parser.add_argument('--learning_rate', type=float, default=0.001, help='learning rate (default: 0.001)')
+parser.add_argument('--num_epochs', type=int, default=100, help='number of epochs to train (default: 100)')
+parser.add_argument('--num_classes', type=int, default=5, help='number of classes (default: 5)')
+args = parser.parse_args()
 
 # 하이퍼파라미터 설정
-batch_size = 32
-learning_rate = 0.001
-num_epochs = 100
-num_classes = 5  # 감정 클래스 수
+batch_size = args.batch_size
+learning_rate = args.learning_rate
+num_epochs = args.num_epochs
+num_classes = args.num_classes
 
 # 데이터 디렉토리 설정
 train_data_dir = "./data/train/"
