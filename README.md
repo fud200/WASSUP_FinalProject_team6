@@ -42,7 +42,7 @@
 ```
  $ python test.py
  ```
-+ 실시간 감정분석 기반 LLM 챗봇 데모 실행
+  + 실시간 감정분석 기반 LLM 챗봇 데모 실행
 ```
  $ python demo.py
  ```
