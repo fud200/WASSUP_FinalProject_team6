@@ -11,14 +11,13 @@ parser = argparse.ArgumentParser(description='Train a hybrid model with DenseNet
 parser.add_argument('--batch_size', type=int, default=32, help='input batch size for training (default: 32)')
 parser.add_argument('--learning_rate', type=float, default=0.001, help='learning rate (default: 0.001)')
 parser.add_argument('--num_epochs', type=int, default=100, help='number of epochs to train (default: 100)')
-parser.add_argument('--num_classes', type=int, default=5, help='number of classes (default: 5)')
 args = parser.parse_args()
 
 # 하이퍼파라미터 설정
 batch_size = args.batch_size
 learning_rate = args.learning_rate
 num_epochs = args.num_epochs
-num_classes = args.num_classes
+num_classes = 4  
 
 # 데이터 디렉토리 설정
 train_data_dir = "./data/train/"
