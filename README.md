@@ -28,7 +28,9 @@
   + 모델 학습
 
   image_crop.ipynb 를 이용해 각 데이터셋을 crop한 뒤 "./data/train/(감정명)/"에 저장합니다.
+  
   이 과정을 train,validation,test set에 대해 진행합니다.
+  
   다음 코드를 실행시켜 모델을 학습합니다.
 ```
  $ python train.py
