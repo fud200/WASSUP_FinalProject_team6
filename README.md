@@ -31,16 +31,16 @@
   
   이 과정을 train,validation,test set에 대해 진행합니다.
   
-  원하는 train 옵션(batch_size, learning_rate, num_epochs)을 지정하여 train.py를 실행시켜 모델을 학습합니다.
+  원하는 train 옵션(batch_size, learning_rate, num_epochs,patience)을 지정하여 train.py를 실행시켜 모델을 학습합니다.
 
   실행 예시
 ```
- $ python train.py --batch_size 64 --learning_rate 0.0005 --num_epochs 50
+ $ python train.py --batch_size 64 --learning_rate 0.0005 --num_epochs 50 --patience 30
  ```
   + 모델 테스트
     학습된 모델은 아래 링크에서 다운받을 수 있습니다.
 
-    https://drive.google.com/file/d/1flvY2gG-MUMKp5-aOVnxJsVfnv5BFaYt/view?usp=sharing
+    [https://drive.google.com/file/d/1flvY2gG-MUMKp5-aOVnxJsVfnv5BFaYt/view?usp=sharing](https://drive.google.com/file/d/11L5d5MGUW_AUamZX33cfyovf1sgzTBzX/view)
 
     학습된 모델 파일을 동일 경로에 저장한 후 다음 코드를 실행시켜 모델을 테스트합니다.
 ```
