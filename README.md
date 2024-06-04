@@ -40,7 +40,7 @@
   + 모델 테스트
     학습된 모델은 아래 링크에서 다운받을 수 있습니다.
 
-    [https://drive.google.com/file/d/1flvY2gG-MUMKp5-aOVnxJsVfnv5BFaYt/view?usp=sharing](https://drive.google.com/file/d/11L5d5MGUW_AUamZX33cfyovf1sgzTBzX/view)
+   https://drive.google.com/file/d/11L5d5MGUW_AUamZX33cfyovf1sgzTBzX/view
 
     학습된 모델 파일을 동일 경로에 저장한 후 다음 코드를 실행시켜 모델을 테스트합니다.
 ```
